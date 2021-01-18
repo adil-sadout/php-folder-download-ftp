@@ -1,0 +1,58 @@
+*{
+    margin:0;
+    font-family:sans-serif, helvetica;
+    box-sizing:border-box;
+}
+body{
+    padding:50px;
+    
+}
+.main-ftp-container, .migrtool{
+    width:50%;
+    background-color: #e7e7e7 ;
+    padding:30px;
+    margin:auto;
+}
+
+.migrtool{
+    text-align:center;
+}
+
+.migrtool-form{
+    width:80%;
+    margin:20px auto;
+}
+.migrtool-form h2{
+    padding-bottom:25px;
+}
+
+.main-ftp-container h1, .main-ftp-container h2{
+    padding:15px 0;
+}
+
+.migrtool-form__values{
+    display: inline-block;
+    text-align:left;
+}
+
+.migrtool-form__values label{
+    padding:5px;
+}
+
+.migrtool-form__values input{
+    width:250px;
+}
+
+.migrtool-form__values > div{
+    padding:5px;
+}
+
+.migrtool-form__values div{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+input[name=submit]{
+    margin-top:20px;
+}
